@@ -1,11 +1,11 @@
 import os
 
-PROJECT_NAME = "My fastapi template"
+PROJECT_NAME = "Fastapi template"
 API_V1_STR = "/api/v1"
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:pass@localhost/quotation"
+SQLALCHEMY_DATABASE_URI = "postgresql://postgres:pass@localhost/test_db"
 
-FIRST_SUPERUSER = "matthew@leaplending.co.uk"
-FIRST_SUPERUSER_PASSWORD = "myroot"
+FIRST_SUPERUSER = "test@leaplending.co.uk"
+FIRST_SUPERUSER_PASSWORD = "test"
 
 SECRET_KEY = os.getenv("SECRET_KEY", "development")
 
